@@ -90,7 +90,7 @@ const userController = {
         } catch (err){
             return res.json({
                 status: false,
-                message: "Something went wrog"
+                message: "Something went wrong"
             });
         }
     }
